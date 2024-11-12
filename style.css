@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#gameCanvas {
+    background-color: #a9d8f3;
+    border: 2px solid #000;
+    display: block;
+    margin: 0 auto;
+}
+
+#score {
+    font-size: 20px;
+    color: #333;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
